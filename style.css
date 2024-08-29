@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+        background-image: linear-gradient(to right, #ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+        margin: 50px 2%;
+}
+
+
+/* Title and paragraph styling */
+.container-title h1{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.container-title p{
+    font-size: 20px; 
+    text-align: justify;
+    color: #373D3F;
+    padding: 10px;
+}
+
+.container-title h2{
+    font-size: 35px;
+    padding: 10px;
+}
+
+/*  list styling */
+.container-title ol{
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: justify;
+}
+.container-title ul{
+      padding: 10px;
+      text-align: justify;
+}
+
+
+/* form styling */
+
+.formContainer{
+    border: 1px solid gray;
+    background-image: linear-gradient(to right,  #8e9eab , #eef2f3);
+    border-radius: 10px;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.formContainer input{
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  width: 60%;
+  padding: 8px;
+  outline: none;
+}
+.formContainer textarea{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 60%;
+    padding: 8px;
+    outline: none;
+}
+
+/*button styling */
+
+button{
+    border-radius: 10px;
+    border-color: #333;
+    background-color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 25px;
+    margin: 10px;
+}
+button:hover{
+    background-image: linear-gradient(to right, #ffffff,#abbaab);
+    color: white;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+

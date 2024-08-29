@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Student Registration System</title>
+</head>
+<body>
+    <div class="container-title">
+        <h1>Student Registration System</h1>
+        <p>The Student Registration System is a comprehensive tool designed for managing student information efficiently. It allows educational institutions to handle student records with ease by providing functionalities for registration, editing, and deletion of student details. The system ensures that student information is accurately maintained and readily accessible for administrative purposes.</p>
+
+        <h2>Functionalities:</h2>
+        <ol>
+            <li > <b>Student Registration:</b>
+                
+                <ul>
+                    <li>Name: Enter the full name of the student.</li>
+                    <li>Class: Specify the class or grade the student is enrolled in.</li>
+                    <li>Address: Provide the student's residential address.</li>
+                    <li>Contact Number: Record the student's contact number for communication purposes.</li>
+                </ul>
+            </li>
+            <li> <b>Edit Student Records:</b>
+            
+                <ul>
+                    <li>Modify existing student information, including name, class, address, and contact number. This feature allows for updates to be made if there are changes in a student's personal details or contact information.</li>
+                    
+                </ul>
+            </li>
+            <li><b>Delete Student Records:</b>
+                
+                <ul>
+                    <li>Remove a student's record from the system. This functionality ensures that outdated or incorrect information can be purged, maintaining the integrity and relevance of the student database..</li>
+                </ul>
+            </li>
+
+        </ol>
+    </div>
+  <br>
+  <br>
+   
+   <div class="formContainer">
+    <label for="nameInput"> Name: </label>
+    <input type="text" id="nameInput" placeholder="Enter Name...">
+
+
+    <label for="clasInput">Class</label>
+    <input type="text" id="clasInput" placeholder="Enter your class...">
+
+
+    <label for="numberInput">Mobile Details:</label>
+    <input type="text" id="numberInput"  placeholder="Enter Mobile Details...">
+
+
+    <label for="addressInput">Address: </label>
+    <textarea id="addressInput" placeholder="Enter Address..."></textarea>
+
+    <button onclick="addData()"><i class="fa-solid fa-check"></i></button>
+
+   </div>
+
+
+    <div class="Output">
+
+    </div>
+
+
+     <table id="outputTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile Details</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </table>  
+
+</body>
+</html>
